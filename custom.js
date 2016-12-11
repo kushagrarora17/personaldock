@@ -17,12 +17,12 @@
         if (hours == 0){
             hoursIn12 = 12;
         }
-        var v = hoursIn12 + ":" + minutes + ":" + seconds + " ";
-        if(hours > 11){
+        var v = hoursIn12 + ":" + minutes /*+ ":" + seconds + " "*/;
+        /*if(hours > 11){
             v+="PM";
         } else {
             v+="AM"
-        }
+        }*/
         setTimeout("updateTime()",1000);
         document.getElementById('time').innerHTML=v;
     }

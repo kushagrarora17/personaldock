@@ -1,5 +1,42 @@
 
+* {
+    font-family: 'Josefin Slab', serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    height: 5px;
+    width: 100%;
+    background-color: #bcbbbe;
+}
+
 .icon{
 	width: 100%;
 	padding: 2%;
+}
+
+.greeting{
+	padding: 15% 10% 3% 10%;
+}
+
+h1{
+	text-align: center;
+	font-size: 70px;
+	font-weight: 400;
+}
+
+#time{
+	font-size: 200px;
+	text-align: center;
+	padding: 5%;
 }
